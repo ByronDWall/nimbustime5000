@@ -7,7 +7,7 @@ function App() {
       <Text>
         Nimbus Time <Explore />
       </Text>
-      <Button onPress={() => alert("Clicked")}>Click me</Button>
+      <Button onClickCapture={() => alert("Clicked")}>Click me</Button>
     </NimbusProvider>
   );
 }
